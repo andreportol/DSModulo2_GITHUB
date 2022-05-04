@@ -10,4 +10,4 @@ data_hoje = date.today()
 # data_hoje_formatada = data_hoje.strftime('%d/%m/%Y')
 
 idade = relativedelta(data_hoje, ano_nascimento_date)
-print(f'{nome} tem {idade.years} anos.')
+print(f'{nome} tem {idade.years} anos!')
